@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT STYLE LINK  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="header-logo">
+          <h2>My Quiz</h2>
+        </div>
+      </header>
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-section-box">
+            <h1>My Quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz Web-page</span>
+              <span class="header-score">Score: 0 / 5</span>
+            </div>
+
+            <h2 class="question-text">
+              who is the best footballer in the world ?
+            </h2>
+
+            <div class="option-list">
+              <div class="option">
+                <span>A. Steph Curry</span>
+              </div>
+
+              <div class="option">
+                <span>B. Evander Holyfield</span>
+              </div>
+
+              <div class="option">
+                <span>C. Cristiano Ronaldo</span>
+              </div>
+
+              <div class="option">
+                <span>D. Micheal Jackson</span>
+              </div>
+            </div>
+
+            <div class="quiz-footer">
+              <span class="question-total">1 of 5 Questions</span>
+              <button class="footer-next-btn">Next</button>
+            </div>
+          </div>
+
+          <div class="result-box">
+            <h2>Result!</h2>
+            <div class="percentage-box">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+
+              <span class="score-text">Your Score 0 out 5</span>
+            </div>
+
+            <div class="buttons">
+              <button class="tryAgain-btn">Try Again!</button>
+              <button class="goHome-btn">Go To Home</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-page">
+            <h1>Quiz summary</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="btn-start">Start Quiz</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="pop-up-segment">
+      <h2>Quiz Guide</h2>
+      <span class="info">1. Carefully Read and Answer.</span>
+      <span class="info">2. Choose Your Answer by clicking Next button </span>
+      <span class="info">3. There's only one in each question</span>
+      <span class="info">4. Follow the instructions Carefully</span>
+      <span class="info">5. Good Luck! </span>
+
+      <div class="pop-up-buttons">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="questions.js"></script>
+  </body>
+</html>

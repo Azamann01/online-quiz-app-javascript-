@@ -1,0 +1,40 @@
+numb: 1
+Question: who is the best footballer in the world ?
+Answer: "C. Cristiano Ronaldo"
+Options:"A. Steph Curry"
+	"B. Evander Holyfield"
+	"C. Cristiano Ronaldo"
+	"D. Micheal Jackson"
+
+
+numb: 2
+Question: what does CSS stand for ?
+Answer: "B. Cascading Style Sheet"
+Options:"A. Come Second School"
+		"B. Cascading Style Sheet"
+		"C. Cascading Sound System"
+		"D. Cook Something Sweet"
+
+	numb: 3
+Question: which is a car brand ?
+Answer: "B. Toyota"
+Options:"A. School"
+		"B. Toyota"
+		"C. Hulk"
+		"D. Marvel"
+
+	numb: 4
+Question: what is javascript used for ?
+Answer: "D. Programming"
+Options:"A. Eating"
+		"B. Swimming"
+		"C. Cooking"
+		"D. Programming"		
+
+	numb: 5
+Question: which is not an english football club?
+Answer: "B. FC Barcelona"
+Options:"A. Chelsea FC"
+		"B. Liverpool FC"
+		"C. Everton FC"
+		"D. Totthenham"	
