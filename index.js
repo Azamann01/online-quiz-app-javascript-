@@ -114,7 +114,6 @@ function showQuestions(index) {
     for(let i = 0; i < option.length; i++) {
         option[i].setAttribute('onclick','optionSelected(this)');
     }
-
 }
 
 function optionSelected (answer){

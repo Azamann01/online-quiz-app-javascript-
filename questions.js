@@ -10,7 +10,6 @@ let questions = [
 	        "D. Micheal Jackson"
         ]
     },
-
     {
         numb: 2,
         question: "what does CSS stand for ?",
